@@ -1,0 +1,18 @@
+#stars{
+    position: relative;
+}
+
+#star{
+    width: 2px;
+	height: 2px;
+	background-color: white;
+	border: 4px dotted "#EEEEEE";
+	border-radius: 1px;
+    z-index:1;
+    position:absolute;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+}

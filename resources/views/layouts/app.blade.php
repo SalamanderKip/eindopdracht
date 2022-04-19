@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php use Illuminate\Support\Facades\Storage; ?>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
